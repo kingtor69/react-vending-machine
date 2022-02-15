@@ -1,3 +1,17 @@
-.Machine Link {
+.Machine .item {
 	display: block;
+	text-decoration: none;
+	padding: 8px;
+	color: blue;
+	font-family: Arial;
+}
+
+.Machine .item:hover {
+	color: purple;
+	font-weight: bold;
+}
+
+.Machine .item:active {
+	color: purple;
+	font-weight: normal;
 }

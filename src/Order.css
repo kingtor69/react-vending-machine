@@ -1,0 +1,32 @@
+.Order .home {
+	display: block;
+	text-decoration: none;
+	padding: 8px;
+	color: blue;
+	font-family: Arial;
+}
+
+.Order .home:hover {
+	color: purple;
+	font-weight: bold;
+}
+
+.Order .home:active {
+	color: purple;
+	font-weight: normal;
+}
+
+.Order button {
+	font-size: 1.5rem;
+	color: green;
+	border-radius: 5px;
+}
+
+.Order button:hover {
+	background-color: yellow;
+}
+
+.Order button:active {
+	border: 2px black solid;
+	background-color: white;
+}
