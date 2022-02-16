@@ -1,3 +1,15 @@
+# React Router Vending Machine
+## Springboard Software Engineering Career Track exercise 41.1.7
+All code by Tor Kingdon with starter code from Create React App (below)
+## To run on your local server:
+```
+git clone https://github.com/kingtor69/react-vending-machine.git
+cd react-vending-machine
+npm install
+npm start
+```
+
+------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
