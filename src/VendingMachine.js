@@ -4,11 +4,14 @@ import Machine from './Machine';
 import FishHead from './FishHead';
 import CheesyPuff from './CheesyPuff';
 import MonkeyBrain from './MonkeyBrain';
+import './VendingMachine.css';
 
 const VendingMachine = () => {
   return (
     <BrowserRouter className="VendingMachine">
-      <h1>Hungry? Whatchoo want?</h1>
+      <h1>Hungry?</h1>
+      <h2 className="whatchawant"><i>So what-cha whatcha whatcha want?</i></h2>
+      <h4 className="whatchawant"><i>whatcha want?</i></h4>
       <Routes>
         <Route path='/' element={<Machine />} />
         <Route exact path='/fishHead' element={<FishHead />} />

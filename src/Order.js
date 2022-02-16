@@ -4,7 +4,7 @@ import './Order.css';
 
 const Order = ({ item, ordered, message, orderAnother }) => {
   const eatOne = () => {
-    orderAnother();
+    orderAnother(ordered + 1);
   };
 
   return(
